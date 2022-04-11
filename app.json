@@ -18,18 +18,22 @@
     },
     "DATABASE_URL": {
       "description": "Your MongoDB URL for Database. Ask in Support Group: https://t.me/linux_repo",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "APP_ID": {
-      "description": "Get this value from https://my.telegram.org"
+      "description": "Get this value from https://my.telegram.org",
+      "required": false
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "AUTH_USERS": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
@@ -46,15 +50,18 @@
     },
     "BOT_USERNAME": {
       "description": "Your Bot Username. Without `@` before Username!",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "LOG_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
-      "value": ""
+      "value": "",
+      "required": false
     },
     "UPDATES_CHANNEL": {
       "description": "Do Force Sub! Add your Channel username which you want to do Force Sub. Read README.md file first!",
-      "value": ""
+      "value": "",
+      "required": false
     }
   },
   "stack": "container"
